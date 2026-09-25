@@ -19,6 +19,7 @@
 | **[ACS-app](https://github.com/iinze0/ACS-app)** | Desktop app. Python. Made with Pakun. |
 | **[ACS-cpp](https://github.com/iinze0/ACS-cpp)** | Native C++ app. Made with Pakun. |
 | **[fang](https://github.com/iinze0/fang)** | Notes for fang (redfang) on Kali. |
+| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | Terminal where Ctrl+A selects all and copies it. |
 
 ---
 
@@ -31,7 +32,7 @@ Build the station. Keep it useful.
 ACS, the app, and the C++ build.
 
 $ ls ~/tools
-ACS  ACS-app  ACS-cpp  fang
+ACS  ACS-app  ACS-cpp  fang  ctrl-a
 ```
 
 ---
