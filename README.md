@@ -4,9 +4,9 @@
   <img src="./assets/iinze0-banner.svg" width="100%" alt="iinze0" />
 </a>
 
-**Kali tooling · Norway · built with [Pakun](https://github.com/brazyqueso)**
+**Kali tooling · Finland**
 
-Wireless assessment station, desktop clients, and small terminal utilities.
+Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 
 </div>
 
@@ -14,13 +14,13 @@ Wireless assessment station, desktop clients, and small terminal utilities.
 
 ### Projects
 
-| Project | Stack | What it is |
-|:--------|:------|:-----------|
-| **[ACS](https://github.com/iinze0/ACS)** | Shell · `.deb` | Air Crack Station — terminal menu for authorized wireless lab work |
-| **[ACS-app](https://github.com/iinze0/ACS-app)** | Python · `.deb` | Desktop client for the same station |
-| **[ACS-cpp](https://github.com/iinze0/ACS-cpp)** | C++ · GTK · `.deb` | Native desktop build |
-| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | C++ · `.deb` | Ctrl+A select-all for Kali’s default terminal |
-| **[fang](https://github.com/iinze0/fang)** | Shell | Modular Kali network toolkit |
+| Project | Stack | What it is | Who |
+|:--------|:------|:-----------|:----|
+| **[ACS](https://github.com/iinze0/ACS)** | Shell · `.deb` | Air Crack Station — terminal menu for authorized wireless lab work | with [Pakun](https://github.com/brazyqueso) |
+| **[ACS-app](https://github.com/iinze0/ACS-app)** | Python · `.deb` | Desktop client for the same station | with [Pakun](https://github.com/brazyqueso) |
+| **[ACS-cpp](https://github.com/iinze0/ACS-cpp)** | C++ · GTK · `.deb` | Native desktop build | with [Pakun](https://github.com/brazyqueso) |
+| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | C++ · `.deb` | Ctrl+A select-all for Kali’s default terminal | iinze0 |
+| **[fang](https://github.com/iinze0/fang)** | Shell | Modular Kali network toolkit | iinze0 |
 
 ### Station
 
@@ -33,11 +33,11 @@ sudo ACS
 
 ```bash
 $ whoami
-iinze0 // Norway
+iinze0 // Finland
 
 $ cat mission.txt
-Build the station. Keep it useful.
-Ship it as a package people can actually install.
+Build tools that are actually usable.
+Some with Pakun. Some alone.
 
 $ ls ~/tools
 ACS  ACS-app  ACS-cpp  ctrl-a  fang
