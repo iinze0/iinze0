@@ -26,6 +26,7 @@ Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 | **[steam-reclaim](https://github.com/iinze0/steam-reclaim)** | Python | Reclaim disk Steam left behind after uninstall | iinze0 |
 | **[steam-saves](https://github.com/iinze0/steam-saves)** | Python | Backup Steam Cloud caches and Proton save folders | iinze0 |
 | **[shelf](https://github.com/iinze0/shelf)** | Python | List, size, and launch Steam + Epic games | iinze0 |
+| **[steam-tools](https://github.com/iinze0/steam-tools)** | PowerShell | Same Steam tools, native on Windows 10/11 | iinze0 |
 | **[fang](https://github.com/iinze0/fang)** | Shell | Modular Kali network toolkit | iinze0 |
 
 ### Station
@@ -46,7 +47,7 @@ Build tools that are actually usable.
 Some with Pakun. Some alone.
 
 $ ls ~/tools
-ACS  ACS-app  ACS-cpp  ctrl-a  clip  serve  share-term  steam-reclaim  steam-saves  shelf  fang
+ACS  ACS-app  ACS-cpp  ctrl-a  clip  serve  share-term  steam-reclaim  steam-saves  shelf  steam-tools  fang
 ```
 
 <div align="center">
