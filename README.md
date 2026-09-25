@@ -24,6 +24,7 @@ Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 | **[serve](https://github.com/iinze0/serve)** | Shell · `.deb` | Share a folder over HTTP and print the URL | iinze0 |
 | **[share-term](https://github.com/iinze0/share-term)** | Shell | Same live terminal on two PCs on the LAN | iinze0 |
 | **[steam-reclaim](https://github.com/iinze0/steam-reclaim)** | Python | Reclaim disk Steam left behind after uninstall | iinze0 |
+| **[steam-saves](https://github.com/iinze0/steam-saves)** | Python | Backup Steam Cloud caches and Proton save folders | iinze0 |
 | **[fang](https://github.com/iinze0/fang)** | Shell | Modular Kali network toolkit | iinze0 |
 
 ### Station
@@ -44,7 +45,7 @@ Build tools that are actually usable.
 Some with Pakun. Some alone.
 
 $ ls ~/tools
-ACS  ACS-app  ACS-cpp  ctrl-a  clip  serve  share-term  steam-reclaim  fang
+ACS  ACS-app  ACS-cpp  ctrl-a  clip  serve  share-term  steam-reclaim  steam-saves  fang
 ```
 
 <div align="center">
