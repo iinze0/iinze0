@@ -19,7 +19,7 @@
 | **[ACS-app](https://github.com/iinze0/ACS-app)** | Desktop app. Python. Made with Pakun. |
 | **[ACS-cpp](https://github.com/iinze0/ACS-cpp)** | Native C++ app. Made with Pakun. |
 | **[fang](https://github.com/iinze0/fang)** | Notes for fang (redfang) on Kali. |
-| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | Terminal where Ctrl+A selects all and copies it. |
+| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | Ctrl+A selects all in the normal Kali terminal. |
 
 ---
 
