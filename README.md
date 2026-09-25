@@ -12,15 +12,22 @@ Wireless assessment station, desktop clients, and small terminal utilities.
 
 ---
 
-### Arsenal
+### Projects
 
-| Project | Stack | Description |
-|:--------|:------|:------------|
+| Project | Stack | What it is |
+|:--------|:------|:-----------|
 | **[ACS](https://github.com/iinze0/ACS)** | Shell · `.deb` | Air Crack Station — terminal menu for authorized wireless lab work |
 | **[ACS-app](https://github.com/iinze0/ACS-app)** | Python · `.deb` | Desktop client for the same station |
 | **[ACS-cpp](https://github.com/iinze0/ACS-cpp)** | C++ · GTK · `.deb` | Native desktop build |
-| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | C++ · `.deb` | Ctrl+A select-all for Kali’s normal terminal |
+| **[ctrl-a](https://github.com/iinze0/ctrl-a)** | C++ · `.deb` | Ctrl+A select-all for Kali’s default terminal |
 | **[fang](https://github.com/iinze0/fang)** | Shell | Modular Kali network toolkit |
+
+### Station
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/iinze0/ACS/main/install-acs.sh | sudo bash
+sudo ACS
+```
 
 ---
 
