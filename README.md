@@ -20,6 +20,7 @@ Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 | **[ACS-app](https://github.com/iinze0/ACS-app)** | Python · `.deb` | Desktop client for the same station | with [Pakun](https://github.com/brazyqueso) |
 | **[ACS-cpp](https://github.com/iinze0/ACS-cpp)** | C++ · GTK · `.deb` | Native desktop build | with [Pakun](https://github.com/brazyqueso) |
 | **[ctrl-a](https://github.com/iinze0/ctrl-a)** | C++ · `.deb` | Ctrl+A select-all for Kali’s default terminal | iinze0 |
+| **[clip](https://github.com/iinze0/clip)** | Shell · `.deb` | Copy and paste the clipboard from the terminal | iinze0 |
 | **[fang](https://github.com/iinze0/fang)** | Shell | Modular Kali network toolkit | iinze0 |
 
 ### Station
@@ -40,7 +41,7 @@ Build tools that are actually usable.
 Some with Pakun. Some alone.
 
 $ ls ~/tools
-ACS  ACS-app  ACS-cpp  ctrl-a  fang
+ACS  ACS-app  ACS-cpp  ctrl-a  clip  fang
 ```
 
 <div align="center">
