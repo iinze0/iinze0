@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="banner.png" width="600" alt="iinze0" />
+<a href="https://github.com/brazyqueso">
+  <img src="./assets/iinze0-banner.svg" width="100%" alt="iinze0" />
+</a>
 
 **offensive security • kali tooling • air crack station**
 
