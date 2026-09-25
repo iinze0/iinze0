@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/brazyqueso">
-  <img src="./assets/iinze0-banner.svg" width="100%" alt="iinze0" />
+  <img src="https://raw.githubusercontent.com/iinze0/iinze0/main/assets/iinze0-banner.svg?v=2" width="100%" alt="iinze0" />
 </a>
 
 **Kali tooling · Finland**
