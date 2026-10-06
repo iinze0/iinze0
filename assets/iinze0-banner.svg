@@ -27,35 +27,21 @@
     @keyframes sweep { from { transform: translateY(-220px); } to { transform: translateY(420px); } }
     @keyframes dash { to { stroke-dashoffset: -280; } }
     @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
-    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes blink { 0%,49% { opacity: 1; }  50%,100% { opacity: 0; } }
     @keyframes flicker { 0%,92%,100% { opacity: 1; } 93% { opacity: 0.35; } 94% { opacity: 1; } 96% { opacity: 0.2; } 97% { opacity: 1; } }
   </style>
   <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#00e5ff"/>
-    <stop offset="50%" stop-color="#3dff8a"/>
-    <stop offset="100%" stop-color="#00e5ff"/>
+    <stop offset="0%" stop-color="#00e5ff"/><stop offset="50%" stop-color="#3dff8a"/><stop offset="100%" stop-color="#00e5ff"/>
   </linearGradient>
   <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#3dff8a" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#3dff8a" stop-opacity="0.55"/>
-    <stop offset="100%" stop-color="#3dff8a" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#3dff8a" stop-opacity="0"/><stop offset="50%" stop-color="#3dff8a" stop-opacity="0.55"/><stop offset="100%" stop-color="#3dff8a" stop-opacity="0"/>
   </linearGradient>
   <linearGradient id="vignette" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#000" stop-opacity="0.35"/>
-    <stop offset="20%" stop-color="#000" stop-opacity="0"/>
-    <stop offset="80%" stop-color="#000" stop-opacity="0"/>
-    <stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
+    <stop offset="0%" stop-color="#000" stop-opacity="0.35"/><stop offset="20%" stop-color="#000" stop-opacity="0"/><stop offset="80%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
   </linearGradient>
-  <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
-    <feGaussianBlur stdDeviation="3.2" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-    <feGaussianBlur stdDeviation="8"/>
-  </filter>
-  <clipPath id="card">
-    <rect x="18" y="18" width="1464" height="364" rx="28"/>
-  </clipPath>
+  <filter id="neon" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="card"><rect x="18" y="18" width="1464" height="364" rx="28"/></clipPath>
 </defs>
 <g clip-path="url(#card)">
   <rect class="panel" x="18" y="18" width="1464" height="364" rx="28"/>
@@ -66,9 +52,15 @@
   <path class="hud" d="M 1452 58 H 1412 M 1452 58 V 98"/>
   <path class="hud" d="M 48 342 H 88 M 48 342 V 302"/>
   <path class="hud" d="M 1452 342 H 1412 M 1452 342 V 302"/>
-  <ellipse class="glow-ring pulse" cx="250" cy="200" rx="78" ry="78"/>
-  <path class="gem-stroke" d="M 194 100 L 306 100 L 336 170 L 250 290 L 164 170 Z"/>
-  <path class="gem-bar" d="M 164 170 L 336 170"/>
+  <g transform="translate(0 0)">
+    <ellipse class="glow-ring pulse" cx="250" cy="200" rx="78" ry="78"/>
+    <path class="gem-stroke" d="M 194 100 L 306 100 L 336 170 L 250 290 L 164 170 Z"/>
+    <path class="gem-bar" d="M 164 170 L 336 170"/>
+    <mask id="maskPav"><path d="M 164 170 H 336 L 250 290 Z" fill="white"/></mask>
+    <g mask="url(#maskPav)"><path class="spin" d="M 75 220 L 425 220 M 88 153 L 412 287 M 126 96 L 374 344 M 183 58 L 317 382 M 250 45 L 250 395 M 317 58 L 183 382 M 374 96 L 126 344 M 412 153 L 88 287"/></g>
+    <mask id="maskCrown"><path d="M 194 100 H 306 L 336 170 H 164 Z" fill="white"/></mask>
+    <g mask="url(#maskCrown)"><path class="spin-rev" d="M 75 138 L 425 138 M 88 71 L 412 205 M 126 14 L 374 262 M 183 -24 L 317 300 M 250 -37 L 250 313 M 317 -24 L 183 300 M 374 14 L 126 262 M 412 71 L 88 205"/></g>
+  </g>
   <text class="name" x="430" y="210">iinze0</text>
   <text class="subtext" x="434" y="258">WINDOWS · KALI · TOOLS</text>
   <rect class="cursor" x="868" y="236" width="12" height="22" fill="#3dff8a"/>
