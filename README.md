@@ -19,7 +19,7 @@ Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 | Project | What it is |
 |:--------|:-----------|
 | **[t-embed-cc1101-guide](https://github.com/iinze0/t-embed-cc1101-guide)** | Install, multi-boot, update, antennas, and your own firmware for the LilyGO T-Embed CC1101 and Plus. |
-| **[site](https://iinze0.github.io/)** | The same guide as a page: install, remote, buy, antennas. |
+| **[iinze0.github.io](https://github.com/iinze0/iinze0.github.io)** | The live page for that guide: install, remote, buy, antennas. |
 
 ### Windows
 
