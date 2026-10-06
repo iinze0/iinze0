@@ -1,10 +1,10 @@
 <div align="center">
 
 <a href="https://github.com/iinze0">
-  <img src="https://raw.githubusercontent.com/iinze0/iinze0/main/assets/iinze0-banner.svg?v=2" width="100%" alt="iinze0" />
+  <img src="https://raw.githubusercontent.com/iinze0/iinze0/main/assets/iinze0-banner.svg?v=3" width="100%" alt="iinze0" />
 </a>
 
-**Kali tooling · Windows tools · Finland**
+**Windows tools · Kali tooling · Finland**
 
 Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 
@@ -16,8 +16,8 @@ Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 
 | Project | What it is |
 |:--------|:-----------|
-| **[bare](https://github.com/iinze0/bare)** | Pick-list debloat and performance menu. `bare.bat` elevates, `bare.ps1` is the script. Version 2.4. |
-| **[heavy](https://github.com/iinze0/heavy)** | Lists the largest folders on a drive. Read-only unless you pass `-CleanTemp`. |
+| **[bare](https://github.com/iinze0/bare)** | Pick-list debloat and performance menu. Version 2.4. |
+| **[heavy](https://github.com/iinze0/heavy)** | Lists the largest folders on a drive. |
 | **[steam-cold](https://github.com/iinze0/steam-cold)** | Installed Steam games not played recently, with disk size. |
 | **[steam-tools](https://github.com/iinze0/steam-tools)** | Windows shelf, reclaim, and save backup. |
 
