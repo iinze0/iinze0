@@ -4,13 +4,22 @@
   <img src="https://raw.githubusercontent.com/iinze0/iinze0/main/assets/iinze0-banner.svg?v=5" width="100%" alt="iinze0" />
 </a>
 
-**Windows tools · Kali tooling · Finland**
+**Windows tools · Kali tooling · ESP32 handhelds · Finland**
 
 Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
+
+[iinze0.github.io](https://iinze0.github.io/)
 
 </div>
 
 ---
+
+### Hardware
+
+| Project | What it is |
+|:--------|:-----------|
+| **[t-embed-cc1101-guide](https://github.com/iinze0/t-embed-cc1101-guide)** | Install, multi-boot, update, antennas, and your own firmware for the LilyGO T-Embed CC1101 and Plus. |
+| **[site](https://iinze0.github.io/)** | The same guide as a page: install, remote, buy, antennas. |
 
 ### Windows
 
