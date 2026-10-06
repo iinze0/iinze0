@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://github.com/iinze0">
+<a href="https://github.com/brazyqueso">
   <img src="https://raw.githubusercontent.com/iinze0/iinze0/main/assets/iinze0-banner.svg?v=4" width="100%" alt="iinze0" />
 </a>
 
