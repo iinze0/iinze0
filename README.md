@@ -25,7 +25,8 @@ Own tools, plus a station built with [Pakun](https://github.com/brazyqueso).
 
 | Project | What it is |
 |:--------|:-----------|
-| **[bare](https://github.com/iinze0/bare)** | Pick-list debloat and performance menu. Version 2.4. |
+| **[Apex](https://github.com/iinze0/Apex)** | Tiered Windows optimizer. Safe by default, Advanced and Extreme opt-in. Hardware-aware adaptive tweaks. Restore points and selective rollback. |
+| **[bare](https://github.com/iinze0/bare)** | Earlier pick-list debloat menu (predecessor to Apex). |
 | **[heavy](https://github.com/iinze0/heavy)** | Lists the largest folders on a drive. |
 | **[steam-cold](https://github.com/iinze0/steam-cold)** | Installed Steam games not played recently, with disk size. |
 | **[steam-tools](https://github.com/iinze0/steam-tools)** | Windows shelf, reclaim, and save backup. |
